@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dax Electric Website</title>
     <link rel="icon" type="image/x-icon" href="./images/logo1.jpg">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
@@ -20,12 +20,12 @@
             </button>
             <nav>
                 <ul id="navMenu">
-        <li> <a href="#home">  <i class="fas fa-home"></i>Home</a></li>
-         <li> <a href="#about">  <i class="fas fa-home"></i>About</a></li>
-          <li> <a href="#services">  <i class="fas fa-service"></i>Services</a></li>
-         <li> <a href="#projects"><i class="fas fa-home"></i>Projects</a></li>
-          <li> <a href="#contacts"> <i class="fas fa-phone"></i>Contacts</a></li>
-           <li> <a href="join.html"><i class="fas fa-hands"></i>Join</a></li>
+         <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="#services"><i class="fas fa-tools"></i> Services</a></li>
+                    <li><a href="#projects"><i class="fas fa-hard-hat"></i> Projects</a></li>
+                    <li><a href="#contacts"><i class="fas fa-phone"></i> Contacts</a></li>
+                    <li><a href="join.html"><i class="fas fa-handshake"></i> Join</a></li>
     </ul>
 </nav>
 </div>
@@ -150,6 +150,7 @@
        </div>
     </section>
     <section id="projects" class="projects">
+        
         <div class="menu header">
         <h2>Projects Done and Delivered</h2>
     </div>
@@ -160,11 +161,24 @@
             <button class="menu-tab" data-category="rentals">Rentals</button>
         </div>
         <div class="menu-items" id="menuItems">
-            <!-- Menu items will be loaded here by JavaScript -->
+            <!--Menu items will be loaded here by JavaScript -->
+           
         </div>
        
 
         </div>
+        
+        <div class="projects-grid">
+    <!-- Loop through menuData.Owncompound -->
+    <div class="project-card">
+          <div class="menu-tabs">
+            <button class="menu-tab active" data-category="Owncompound">Own compound</button>
+            <button class="menu-tab" data-category="Institutions">Institutions</button>
+            <button class="menu-tab" data-category="mansion">Mansionate</button>
+            <button class="menu-tab" data-category="rentals">Rentals</button>
+        </div>
+       
+</div>
     </section>
     
     <section id="contacts" class="contacts">
@@ -172,10 +186,11 @@
         <br>
         <div class="contact-content">
             <div class="contact-txt">
-        <p>Phone number: <a href="+254724766164" class="dial"><i class="fas fa-phone"></i>0724 766 164</a></p>
-       <br> <p>Social link:Facebook: <a href="" class="dial"><i class="fab fa-facebook"></i>Dax Electricals</a></p>
-        
-        
+          <p><i class="fas fa-phone"></i> Phone: <a href="tel:+254724766164" class="dial">0724 766 164</a></p>
+                        <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/254724766164" class="dial">0724 766 164</a></p>
+                        <p><i class="fab fa-facebook"></i> Facebook: <a href="#" class="dial">Dax Electricals</a></p>
+                        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@daxelectricals.co.ke" class="dial">info@daxelectricals.co.ke</a></p>
+                    
         </div>
         <br>
         <div class="form-group">
@@ -217,6 +232,6 @@
         <hr>
         <p>&copy 2026 .Dax Electricals  <strong>All Rights Reserved</strong></p>
     </footer>
-    <script src="main.js"></script>
+    <script src="mains.js"></script>
 </body>
 </html>
