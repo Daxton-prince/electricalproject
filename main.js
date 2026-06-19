@@ -226,6 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ====================
 
 // Wait for DOM to load for form handling
+/*
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('enquiryForm');
     const submitBtn = document.getElementById('submitBtn');
@@ -313,7 +314,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Make showToast globally available
     window.showToast = showToast;
 });
-
+*/
 // ====================
 // MOBILE MENU TOGGLE
 // ====================
