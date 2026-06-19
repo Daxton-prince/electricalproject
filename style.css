@@ -1,8 +1,6 @@
 /* ====================
    GLOBAL STYLES & RESET
    ==================== */
-html{
-   scroll-behaviour:smooth;}
 * {
     margin: 0;
     padding: 0;
@@ -59,8 +57,9 @@ img {
    HEADER / NAVIGATION
    ==================== */
 header {
-    background: #1a1a2e;
-    color: #fff;
+    background-color:transparent;
+  backdrop-filter: blur(9px);
+    color:#11111f;
     padding: 0.5rem 5%;
     position: sticky;
     top: 0;
